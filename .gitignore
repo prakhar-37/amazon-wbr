@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# local data — changes every week, not committed
+data/
+
+# keep output/index.html for GitHub Pages
+# (output/ is NOT excluded)
