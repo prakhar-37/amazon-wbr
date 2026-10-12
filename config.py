@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
-OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR = BASE_DIR / "docs"
 
 DB_PATH = DATA_DIR / "wbr.db"
 INSIGHTS_PATH = DATA_DIR / "insights.json"
